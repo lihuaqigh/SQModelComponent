@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface SQShop : NSObject
-
+@property (nonatomic, copy) NSString *shopId;
+@property (nonatomic, copy) NSString *shopUrl;
+@property (nonatomic, copy) NSString *logoUrl;
+@property (nonatomic, copy) NSString *shopScore;
+@property (nonatomic, copy) NSString *shopName;
+@property (nonatomic, assign) NSInteger shopRank;
 @end
